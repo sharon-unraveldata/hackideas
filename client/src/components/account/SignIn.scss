@@ -1,0 +1,11 @@
+.signin-container {
+  height: 100%;
+  
+  &.bg-gray-100 {
+    background: var(--bs-gray-100);
+  }
+}
+
+.signin-box {
+  width: 300px;
+}

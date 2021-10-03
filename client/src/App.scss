@@ -1,0 +1,53 @@
+.App {
+	height: 100vh;
+}
+
+.disabled{
+  opacity:0.5;
+  pointer-events: none;
+}
+
+.loader {
+  position: relative;
+  opacity:0.5;
+  &::before{
+    position: absolute;
+    top:0%;
+    right:0%;
+    bottom:0%;
+    left:0%;
+    z-index: 1000;
+    box-sizing: border-box;
+    width: 18px;
+    height: 18px;
+    margin: auto;
+    content: "";
+    border: solid 2px transparent;
+    border-top-color: #29d;
+    border-left-color: #29d;
+    border-radius: 50%;
+    -webkit-animation: loader-spin .5s linear infinite;
+    -moz-animation: loader-spin .5s linear infinite;
+    animation: loader-spin .5s linear infinite;
+
+  };
+}
+
+@keyframes loader-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.blink {
+  animation: blinker 1s linear infinite;
+}
+
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
