@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/hackideas/static/css/main.3c50ca29.chunk.css",
-    "main.js": "/hackideas/static/js/main.bb780b59.chunk.js",
-    "main.js.map": "/hackideas/static/js/main.bb780b59.chunk.js.map",
+    "main.js": "/hackideas/static/js/main.ec7e54a7.chunk.js",
+    "main.js.map": "/hackideas/static/js/main.ec7e54a7.chunk.js.map",
     "runtime-main.js": "/hackideas/static/js/runtime-main.cdf1866f.js",
     "runtime-main.js.map": "/hackideas/static/js/runtime-main.cdf1866f.js.map",
     "static/css/2.c1beb3f0.chunk.css": "/hackideas/static/css/2.c1beb3f0.chunk.css",
@@ -21,6 +21,6 @@
     "static/css/2.c1beb3f0.chunk.css",
     "static/js/2.77e411a2.chunk.js",
     "static/css/main.3c50ca29.chunk.css",
-    "static/js/main.bb780b59.chunk.js"
+    "static/js/main.ec7e54a7.chunk.js"
   ]
 }
