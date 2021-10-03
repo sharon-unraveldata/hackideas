@@ -11,7 +11,7 @@ import {
 function App() {
   return (
     <div className="App">
-      <Router>
+      <Router basename="/hackideas">
         <Switch>
           <Route path="/home">
             <Home/>
