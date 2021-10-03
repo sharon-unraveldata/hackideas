@@ -56,7 +56,7 @@ function SignInBox() {
           
         </div>
         <div className="card-footer d-flex justify-content-end">
-            <Link to="/signup" className="pe-2">No Id Register Here?</Link>
+            <Link to="/signup" className="pe-2">If No Id, Register Here?</Link>
             <button type="submit" className="btn btn-success">{ isLoading ? 'Sign In...' : 'Sign In'} </button>
         </div>
       </form>

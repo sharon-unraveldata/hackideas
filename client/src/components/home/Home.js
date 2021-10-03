@@ -140,8 +140,9 @@ function Home(){
  return (
    <div>
     <div className="d-flex justify-content-end p-3">
-      <button className="btn btn-success btn-sm" onClick={newIdeas}>New Hack Idea</button>
-      <button className="btn btn-info btn-sm ms-1" onClick={logOut}>log out {user} </button>
+      <button className="btn btn-success btn-sm me-2" onClick={newIdeas}>New Hack Idea</button>
+      <b className="me-2">User: {user}</b>
+      <a href="#" onClick={logOut}>Log Out  </a>
     </div>
 
 
